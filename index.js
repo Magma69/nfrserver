@@ -1,13 +1,3 @@
-const express = require("express");
-
-const app = express();
-
-const port = 3000;
-
-app.get("/", (req, res) => {
-  res.send("Hellooo Woorld!");
-});
-
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
-});
+export default function handler(req, res) {
+  res.status(200).end('Hello Cron!');
+}
