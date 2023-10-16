@@ -10,7 +10,7 @@ window.addEventListener("load", async () => {
             body: JSON.stringify(body)
         });
 
-    document.getElementById("ser").innerHTML = request.body
+    console.log(request)
 
 
 })
