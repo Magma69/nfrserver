@@ -5,7 +5,7 @@ window.addEventListener("load", async () => {
         "hello": "hi!"
     }
 
-    let request = await fetch(`https://nfrserver.vercel.app/api/`, {
+    let request = await fetch(`https://nfrserver.vercel.app/api/index.js`, {
             method: 'POST',
             body: JSON.stringify(body)
         });
