@@ -1,4 +1,4 @@
 return {
-  statusCode: 200,
-  body: 'hello!',
+  statusCode: 500,
+  body: 'HELL WORLD!!!!!!!',
 };
