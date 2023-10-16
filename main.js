@@ -6,7 +6,7 @@ window.addEventListener("load", async () => {
     }
 
     let request = await fetch(`https://nfrserver.vercel.app/plzwork/`, {
-            method: 'POST',
+            method: 'GET',
             body: JSON.stringify(body)
         });
 
